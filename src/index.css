@@ -1,0 +1,68 @@
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(49, 70, 70);
+}
+
+#wrapper {
+  background-color: rgb(102, 100, 100);
+  width: 550px;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+#text {
+  font-size: 25px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+}
+
+.quote-author {
+  display: flex;
+  justify-content: end;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+#author {
+  color: rgb(14, 13, 12);
+  font-weight: bold;
+  background: linear-gradient(to bottom, rgb(160, 144, 144), rgb(175, 167, 167), white);
+}
+
+#tweet-quote {
+  color: black;
+}
+
+#new-quote {
+  font-size: 14px;
+  padding: 3px;
+  background-color: rgb(255, 169, 9);
+  width: 90px;
+  margin-left: 200px;
+  cursor: pointer;
+}
+
+#new-quote:hover {
+  background-color: rgb(255, 169, 9, 0.8);
+}
+
+.x:hover {
+  background-color: rgb(255, 255, 255, 0.7);
+}
+
+#buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.footer {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+  color: white;
+}
